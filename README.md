@@ -165,30 +165,12 @@ A Streamlit Web Application that allows users to:
 
 - Explore tourism trends through visual dashboards
 
-# 📁 Project Structure
-Tourism-Experience-Analytics/
-│
-├── data/
-│   ├── raw_data.csv
-│   ├── cleaned_data.csv
-│
-├── notebooks/
-│   ├─ data_cleaning.ipynb
-│   ├─ tourism_experience_analytics.ipynb
-
-│
-├── models/
-│   ├── visit_mode_model.pkl
-│   ├── scaler.pkl
-│   ├── label_encoder.pkl
-│
-├── app.py
-└── README.md
-
 # 👩‍💻 Author
 
-Mitali Sharma
+- Mitali Sharma
+
 B.Tech – Computer Engineering
+
 Machine Learning & Data Analytics Enthusiast
 
 # 🌟 Future Improvements
