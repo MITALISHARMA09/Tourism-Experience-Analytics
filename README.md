@@ -94,11 +94,7 @@ Evaluation Metrics:
 
 🔹 3. Recommendation System
 
-Approaches Used:
-
-🔁 Collaborative Filtering
-
-Output: Ranked list of personalized attractions.
+- Collaborative Filtering
 
 # 🔍 Project Workflow
 1️⃣ Data Preparation
