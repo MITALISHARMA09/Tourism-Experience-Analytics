@@ -1,5 +1,4 @@
-# 🌍 Tourism Experience Analytics
-Classification, Prediction & Recommendation System
+# 🌍 Tourism Experience Analytics : Classification, Prediction & Recommendation System
 # 📌 Overview
 
 Tourism Experience Analytics is an end-to-end Machine Learning project designed to enhance user experience in the tourism domain.
@@ -18,13 +17,13 @@ The final solution is deployed using Streamlit as an interactive web application
 
 Tourism agencies and travel platforms aim to:
 
-Provide personalized recommendations
+- Provide personalized recommendations
 
-Predict user satisfaction levels
+- Predict user satisfaction levels
 
-Classify user travel behavior
+- Classify user travel behavior
 
-Increase customer retention
+- Increase customer retention
 
 This project leverages user demographics, travel history, and attraction features to build predictive and recommendation models.
 
@@ -42,79 +41,19 @@ This project leverages user demographics, travel history, and attraction feature
 
 # 🛠️ Tech Stack
 
-Python
+- Python
 
-Pandas, NumPy
+- Pandas, NumPy
 
-Matplotlib, Seaborn, Plotly
+- Matplotlib, Seaborn, Plotly
 
-Scikit-learn
+- Scikit-learn
 
-LightGBM / Random Forest / XGBoost
+- LightGBM / Random Forest / XGBoost
 
-Collaborative Filtering (Cosine Similarity)
+- Collaborative Filtering (Cosine Similarity)
 
-SQL
-
-Streamlit
-
-# 📂 Dataset Description
-
-The project uses a structured Tourism dataset consisting of:
-
-1️⃣ Transaction Data
-
-TransactionId
-
-UserId
-
-VisitYear
-
-VisitMonth
-
-VisitMode
-
-AttractionId
-
-Rating
-
-2️⃣ User Data
-
-UserId
-
-ContinentId
-
-RegionId
-
-CountryId
-
-CityId
-
-3️⃣ Attraction (Item) Data
-
-AttractionId
-
-AttractionCityId
-
-AttractionTypeId
-
-Attraction
-
-AttractionAddress
-
-4️⃣ Supporting Tables
-
-City Data
-
-Country Data
-
-Region Data
-
-Continent Data
-
-Visit Mode Data
-
-Attraction Type Data
+- Streamlit
 
 # 🚀 Project Objectives
 🔹 1. Regression – Predict Attraction Ratings
@@ -123,35 +62,35 @@ Goal: Predict the rating (1–5 scale) a user would give to an attraction.
 
 Evaluation Metrics:
 
-R² Score
+- R² Score
 
-Mean Squared Error (MSE)
+- Mean Squared Error (MSE)
 
-Root Mean Squared Error (RMSE)
+- Root Mean Squared Error (RMSE)
 
 🔹 2. Classification – Predict Visit Mode
 
-Goal: Predict whether a user will travel for:
+Goal: Predict whether a user will travel with:
 
-Business
+- Business
 
-Family
+- Family
 
-Couples
+- Couples
 
-Friends
+- Friends
 
-Solo
+- Solo
 
 Evaluation Metrics:
 
-Accuracy
+- Accuracy
 
-Precision
+- Precision
 
-Recall
+- Recall
 
-F1 Score
+- F1 Score
 
 🔹 3. Recommendation System
 
@@ -159,80 +98,76 @@ Approaches Used:
 
 🔁 Collaborative Filtering
 
-📌 Content-Based Filtering
-
-🔀 Hybrid Recommendation (Optional)
-
 Output: Ranked list of personalized attractions.
 
 # 🔍 Project Workflow
 1️⃣ Data Preparation
 
-Handling missing values
+- Handling missing values
 
-Removing duplicates
+- Removing duplicates
 
-Resolving inconsistent categorical values
+- Resolving inconsistent categorical values
 
-Outlier detection
+- Outlier detection
 
-Encoding categorical variables
+- Encoding categorical variables
 
-Feature scaling
+- Feature scaling
 
 2️⃣ Exploratory Data Analysis (EDA)
 
-User distribution across continents & countries
+- User distribution across continents & countries
 
-Popular attraction types
+- Popular attraction types
 
-Rating distribution analysis
+- Rating distribution analysis
 
-VisitMode vs Demographics correlation
+- VisitMode vs Demographics correlation
 
-Regional tourism trends
+- Regional tourism trends
 
 3️⃣ Feature Engineering
 
-Aggregated user-level features
+- Aggregated user-level features
 
-Merging multiple relational tables
+- Merging multiple relational tables
 
-Creating user-item interaction matrix
+- Creating user-item interaction matrix
 
-Label encoding
+- Label encoding
 
 4️⃣ Model Training
 
-Linear Regression
+- Linear Regression
 
-Random Forest
+- Random Forest
 
-LightGBM / XGBoost
+- LightGBM / XGBoost
 
-Collaborative Filtering using Cosine Similarity
+- Collaborative Filtering using Cosine Similarity
 
 5️⃣ Model Evaluation
 
-Cross-validation
+- Cross-validation
 
-Model comparison
+- Model comparison
 
-Business-focused interpretation
+- Business-focused interpretation
 
 6️⃣ Deployment
 
 A Streamlit Web Application that allows users to:
 
-Input demographic details
+- Input demographic details
 
-Get predicted visit mode
+- Get predicted visit mode
 
-View predicted attraction rating
+- View predicted attraction rating
 
-Receive personalized recommendations
+- Receive personalized recommendations
 
-Explore tourism trends through visual dashboards
+- Explore tourism trends through visual dashboards
 
 # 📁 Project Structure
 Tourism-Experience-Analytics/
@@ -253,27 +188,19 @@ Tourism-Experience-Analytics/
 │
 ├── app.py
 └── README.md
-# ▶️ How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/Tourism-Experience-Analytics.git
-cd Tourism-Experience-Analytics
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Run the Streamlit App
-streamlit run app.py
 
 # 👩‍💻 Author
 
 Mitali Sharma
-B.Tech – Computer Science
+B.Tech – Computer Engineering
 Machine Learning & Data Analytics Enthusiast
 
 # 🌟 Future Improvements
 
-Deep learning-based recommendation
+- Deep learning-based recommendation
 
-Real-time feedback integration
+- Real-time feedback integration
 
-Cloud deployment (AWS/GCP)
+- Cloud deployment (AWS/GCP)
 
-Location-based smart recommendations
+- Location-based smart recommendations
